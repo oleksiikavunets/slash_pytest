@@ -1,0 +1,15 @@
+
+\.idea/inspectionProfiles/Project_Default\.xml
+
+*.xml
+
+\.idea/slash_trial_framework\.iml
+
+*.pyc
+
+*.pyd
+
+*.txt
+
+venv/
+
