@@ -1,10 +1,9 @@
 import slash
+# import tags.slash.tests.tag_storage
 
 
 @slash.tag('REGRESSION')
 class Tags(slash.Test):
-    # tag created earlier
-    earlier_created_tag = slash.tag('earlier created tag')
     smoke = slash.tag('smoke')
 
     # tagging by simple decorator
@@ -19,6 +18,6 @@ class Tags(slash.Test):
     def test_tag_has_value(self):
         assert 1 == 0
 
-    @earlier_created_tag
+    # @tags.slash.tests.tag_storage.earlier_created_tag
     def test_earlier_created_tag(self):
         assert 1 == 0
