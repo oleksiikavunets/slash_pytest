@@ -1,0 +1,1 @@
+slash run tests -k tag:tags_speed_slash_method
