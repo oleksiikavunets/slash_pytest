@@ -13,6 +13,6 @@ pytest results:
 
 slash results:
 
-![Alt text](/src/slash.tif?raw=true "Optional Title")
+![Alt text](/src/slash.jpg?raw=true "Optional Title")
 
  
