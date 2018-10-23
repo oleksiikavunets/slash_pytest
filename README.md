@@ -9,7 +9,7 @@ We got 3 seconds with pytest against 9 seconds with slash.
 
 pytest results:
 
-![Alt text](/src/pytest.tif?raw=true "Optional Title") 
+![Alt text](/src/pytest.jpg?raw=true "Optional Title") 
 
 slash results:
 
