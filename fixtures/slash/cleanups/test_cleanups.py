@@ -3,12 +3,11 @@ import slash
 
 class Fixtures(slash.Test):
 
-    def test_1(self):
+    def test_1(self, fixture_1):
         print("\ntest_1")
         assert 1 == 1
 
-    @slash.use_fixtures(['fixture_2'])
-    def test_2(self):
+    def test_2(self, fixture_2):
         print("\ntest_2")
         assert 1 == 1
 
