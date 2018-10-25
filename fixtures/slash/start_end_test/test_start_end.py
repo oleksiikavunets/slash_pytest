@@ -18,3 +18,4 @@ class Tests(slash.Test):
 
     def test_1(self, fixture_1):
         print("\ntest_1")
+        assert 1 == 1

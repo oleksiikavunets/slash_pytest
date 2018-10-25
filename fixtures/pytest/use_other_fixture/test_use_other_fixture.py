@@ -16,3 +16,4 @@ class Tests:
     # will use both fixtures
     def test_1(self, fixture_2):
         print("\ntest_1")
+        assert 1 == 1
