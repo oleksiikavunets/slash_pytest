@@ -10,6 +10,5 @@ def iter_yield():
         yield l
         print("current ip: "+l)
 
-
 def test_yield():
     iter_yield
