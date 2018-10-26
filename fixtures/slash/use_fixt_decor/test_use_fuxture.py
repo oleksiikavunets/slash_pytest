@@ -44,10 +44,10 @@ def test_all_fixturesa():
 
 @slash.use_fixtures(["fixture1", "fixture2", "fixture3", "fixture4", "fixture5"])
 def test_all_fixturesb():
-    print("Run all fixtures (1-st time) 1,2,3,4,5:\n##########\n")
+    print("Run all fixtures (2-st time) 1,2,3,4,5:\n##########\n")
 
 @slash.use_fixtures(["fixture1", "fixture2", "fixture3", "fixture4", "fixture5"])
 def test_all_fixturesc():
-    print("Run all fixtures (1-st time) 1,2,3,4,5:\n##########\n")
+    print("Run all fixtures (3-st time) 1,2,3,4,5:\n##########\n")
 
 
