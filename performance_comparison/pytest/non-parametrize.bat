@@ -1,0 +1,1 @@
+py.test -k non_parametrize --count=1000

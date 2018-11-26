@@ -1,0 +1,1 @@
+py.test -k pytest_parametrize --count=1000

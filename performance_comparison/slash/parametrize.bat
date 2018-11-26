@@ -1,0 +1,1 @@
+slash run tests -k tag:slash_parametrize
